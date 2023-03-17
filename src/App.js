@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import Home from './Components/Home';
+import NavBar from './Components/NavBar';
+import About from './Components/About';
+import Contact from './Components/Contact';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(props) {
+	const [projects, setProjects] = useState([]);
+	useEffect(() => {
+		fetch('http://localhost:3000/projects')
+			.then((resp) => resp.json())
+			.then((data) => setProjects(data));
+	}, []);
+
+	return (
+		<div>
+			<h1>Projects</h1>
+		</div>
+	);
 }
 
 export default App;
