@@ -9,6 +9,7 @@ import Project from './Components/Project';
 import ProjectContainer from './Components/ProjectContainer';
 import NotFound from './Components/NotFound';
 
+
 function App(props) {
 	const [projects, setProjects] = useState([]);
 	useEffect(() => {
