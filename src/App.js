@@ -8,8 +8,7 @@ import Contact from './Components/Contact';
 import Project from './Components/Project';
 import ProjectContainer from './Components/ProjectContainer';
 import NotFound from './Components/NotFound';
-
-
+import Footer from './Components/Footer';
 function App(props) {
 	const [projects, setProjects] = useState([]);
 	useEffect(() => {
@@ -19,7 +18,7 @@ function App(props) {
 	}, []);
 
 	return (
-		<div className='App'>
+		<div bg-offwhite min-h-screen>
 			<NavBar />
 			<Routes>
 				<Route path='/' element={<LandingPage />} />
@@ -33,6 +32,7 @@ function App(props) {
 				<Route path='/project/:id' element={<Project />} />
 				<Route path='*' element={<NotFound />} />
 			</Routes>
+			<Footer />
 		</div>
 	);
 }
