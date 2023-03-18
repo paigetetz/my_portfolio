@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 function LandingPage(props) {
-	const exploreClick = () => {};
 	return (
-		<Link to='/home' onClick={exploreClick}>
+		<Link to='/home'>
 			<div>
 				<h1>
 					My name is Paige Tetzlaff, and I'm a Full Stack Software Engineer.
