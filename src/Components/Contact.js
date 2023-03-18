@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Contact = () => {
+function Contact() {
 	const [formData, setFormData] = useState({
 		name: '',
 		email: '',
@@ -36,8 +36,8 @@ const Contact = () => {
 	};
 
 	return (
-		<div className='w-full max-w-md mx-auto mt-10 text-cloudy'>
-			<h2 className='text-2xl mb-6 text-center text-cloudy'>Contact Form</h2>
+		<div className='w-full max-w-md mx-auto mt-10 text-cloudy mt-1 w-full px-3 py-2 border border-sage rounded-md'>
+			<h2 className='text-2xl mb-6 text-center text-cloudy'>Let's Connect</h2>
 			{status === 'success' && (
 				<p className='text-green-500 text-center mb-4'>
 					Message sent successfully!
@@ -106,6 +106,6 @@ const Contact = () => {
 			</form>
 		</div>
 	);
-};
+}
 
 export default Contact;

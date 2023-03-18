@@ -8,28 +8,28 @@ function NavBar(props) {
 					Paige Tetzlaff: Full Stack Software Engineer
 				</h3>
 				<NavLink
-					class='hover:text-gold transition-colors duration-200'
+					className='hover:text-gold transition-colors duration-200'
 					exact
 					to='/home'
 				>
 					Home
 				</NavLink>
 				<NavLink
-					class='hover:text-gold transition-colors duration-200'
+					className='hover:text-gold transition-colors duration-200'
 					exact
 					to='/about'
 				>
 					About
 				</NavLink>
 				<NavLink
-					class='hover:text-gold transition-colors duration-200'
+					className='hover:text-gold transition-colors duration-200'
 					exact
 					to='/projects'
 				>
 					Projects
 				</NavLink>
 				<NavLink
-					class='hover:text-gold transition-colors duration-200'
+					className='hover:text-gold transition-colors duration-200'
 					exact
 					to='/contact'
 				>
