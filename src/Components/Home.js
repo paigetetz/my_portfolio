@@ -1,9 +1,9 @@
 import React from 'react';
-
+import HomeImage from '../Images/HomeImage.jpg';
 function Home(props) {
 	return (
 		<div>
-			<h1 className='bg-red-50 p-3'>I'm Home!</h1>
+			<img src={HomeImage} alt='home' />
 		</div>
 	);
 }
