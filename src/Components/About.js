@@ -1,9 +1,9 @@
 import React from 'react';
-
+import AboutImage from '../Images/AboutImage.jpg';
 function About(props) {
 	return (
 		<div>
-			<h1>It's Ya Girl!!</h1>
+			<img src={AboutImage} alt='about' />
 		</div>
 	);
 }
