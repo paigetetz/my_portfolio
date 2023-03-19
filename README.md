@@ -22,7 +22,7 @@ Clone the repository to your local machine.
 Open the project directory in your code editor.
 Install the dependencies by running npm install.
 Run the development server by running npm start.
-Open the website at http://localhost:3000 in your web browser.
+Open the website at http://localhost:4000 in your web browser.
 Alternatively, you can view the live version of the website at [insert your website URL here].
 
 Contributing
