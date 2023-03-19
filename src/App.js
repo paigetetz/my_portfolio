@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import Home from './Components/Home';
 import NavBar from './Components/NavBar';
 import LandingPage from './Components/LandingPage';
@@ -9,17 +9,22 @@ import Project from './Components/Project';
 import ProjectContainer from './Components/ProjectContainer';
 import NotFound from './Components/NotFound';
 import Footer from './Components/Footer';
+
 function App(props) {
 	const [projects, setProjects] = useState([]);
+
 	useEffect(() => {
 		fetch('http://localhost:3000/projects')
 			.then((resp) => resp.json())
 			.then((data) => setProjects(data));
 	}, []);
 
+	const location = useLocation();
+	const isLandingPage = location.pathname === '/';
+
 	return (
 		<div bg-offwhite min-h-screen>
-			<NavBar />
+			{!isLandingPage && <NavBar />}
 			<Routes>
 				<Route path='/' element={<LandingPage />} />
 				<Route path='/home' element={<Home />} />
@@ -32,9 +37,8 @@ function App(props) {
 				<Route path='/project/:id' element={<Project />} />
 				<Route path='*' element={<NotFound />} />
 			</Routes>
-			<Footer />
+			{!isLandingPage && <Footer />}
 		</div>
 	);
 }
-
 export default App;

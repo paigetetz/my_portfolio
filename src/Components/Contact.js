@@ -46,9 +46,7 @@ function Contact() {
 			</div>
 			<div className='flex-grow text-center mx-auto lg:mx-0'>
 				<h2 className='text-2xl mb-6 text-cloudy'>Let's Connect</h2>
-				{status === 'success' && (
-					<p className='text-green-500 mb-4'>Talk to you soon!</p>
-				)}
+				{status === 'success' && <p className='mb-4'>Talk to you soon!</p>}
 				{status === 'error' && (
 					<p className='mb-4'>Error sending message. Please try again.</p>
 				)}
