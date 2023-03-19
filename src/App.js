@@ -23,7 +23,7 @@ function App(props) {
 	const isLandingPage = location.pathname === '/';
 
 	return (
-		<div bg-offwhite min-h-screen>
+		<div className='bg-offwhite min-h-screen font-display'>
 			{!isLandingPage && <NavBar />}
 			<Routes>
 				<Route path='/' element={<LandingPage />} />

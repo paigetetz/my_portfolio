@@ -11,7 +11,7 @@ function About(props) {
 					className='w-full flex items-center rounded-md'
 				/>
 			</div>
-			<div className='w-full sm:w-1/2 p-4 text-cloudy'>
+			<div className='w-full sm:w-1/2 p-4 text-cloudy font-display'>
 				<h1 className='text-2xl font-bold text-cloudy pb-4'>About Me</h1>
 				<p className='text-lg pb-4'>
 					Hi there, I'm Paige Tetzlaff, a full-stack software engineer. My
