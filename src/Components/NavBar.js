@@ -10,28 +10,28 @@ function NavBar(props) {
 				</h3> */}
 				<img src={Logo} alt='Logo' className='w-20' />
 				<NavLink
-					className='hover:text-gold transition-colors duration-200'
+					className='hover:text-gold transition-colors duration-300'
 					exact
 					to='/home'
 				>
 					Home
 				</NavLink>
 				<NavLink
-					className='hover:text-gold transition-colors duration-200'
+					className='hover:text-gold transition-colors duration-300'
 					exact
 					to='/about'
 				>
 					About
 				</NavLink>
 				<NavLink
-					className='hover:text-gold transition-colors duration-200'
+					className='hover:text-gold transition-colors duration-300'
 					exact
 					to='/projects'
 				>
 					Projects
 				</NavLink>
 				<NavLink
-					className='hover:text-gold transition-colors duration-200'
+					className='hover:text-gold transition-colors duration-300'
 					exact
 					to='/contact'
 				>

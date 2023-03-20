@@ -9,7 +9,7 @@ function Footer(props) {
 						href='https://www.linkedin.com/in/paigetetzlaff/'
 						target='_blank'
 						rel='noopener noreferrer'
-						className='hover:text-gold'
+						className='hover:text-gold duration-300'
 					>
 						LinkedIn
 					</a>
@@ -19,7 +19,7 @@ function Footer(props) {
 						href='https://github.com/paigetetz'
 						target='_blank'
 						rel='noopener noreferrer'
-						className='hover:text-gold'
+						className='hover:text-gold duration-300'
 					>
 						GitHub
 					</a>
@@ -29,7 +29,7 @@ function Footer(props) {
 						href='https://medium.com/@paigetetz'
 						target='_blank'
 						rel='noopener noreferrer'
-						className='hover:text-gold'
+						className='hover:text-gold duration-300'
 					>
 						Medium
 					</a>
