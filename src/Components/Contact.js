@@ -41,14 +41,18 @@ function Contact() {
 				<img
 					src={ContactImage}
 					alt='Butterfly on a flower'
-					className='max-w-sm rounded-md mr-4'
+					className='max-w-sm rounded-md mr-4 border-2 border-gold'
 				/>
 			</div>
 			<div className='flex-grow text-center mx-auto lg:mx-0'>
 				<h2 className='text-2xl mb-6 text-cloudy'>Let's Connect</h2>
-				{status === 'success' && <p className='mb-4'>Talk to you soon!</p>}
+				{status === 'success' && (
+					<p className='mb-4 text-gold'>Talk to you soon!</p>
+				)}
 				{status === 'error' && (
-					<p className='mb-4'>Error sending message. Please try again.</p>
+					<p className='mb-4 text-gold'>
+						Error sending message. Please try again.
+					</p>
 				)}
 				<form onSubmit={handleSubmit} className='space-y-4'>
 					<div>

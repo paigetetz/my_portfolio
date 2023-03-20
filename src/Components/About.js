@@ -8,7 +8,7 @@ function About(props) {
 				<img
 					src={AboutImage}
 					alt='about'
-					className='w-full flex items-center rounded-md'
+					className='w-full flex items-center rounded-md border-2 border-gold'
 				/>
 			</div>
 			<div className='w-full sm:w-1/2 p-4 text-cloudy font-display'>
