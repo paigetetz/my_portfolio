@@ -1,12 +1,12 @@
 import React from 'react';
-import AboutImage from '../Images/AboutImage.jpg';
+import HomeImage from '../Images/HomeImage.jpg';
 
 function About(props) {
 	return (
-		<div className='flex flex-col mx-3 px-3 py-2 border border-sage rounded-md my-3 sm:flex-row'>
+		<div className='flex flex-col mx-3 px-3 py-2 border border-sage rounded-md my-3 sm:flex-row flex items-center'>
 			<div className='w-full sm:w-1/2 sm:pr-4'>
 				<img
-					src={AboutImage}
+					src={HomeImage}
 					alt='about'
 					className='w-full flex items-center rounded-md border-2 border-gold'
 				/>
@@ -14,38 +14,42 @@ function About(props) {
 			<div className='w-full sm:w-1/2 p-4 text-cloudy font-display'>
 				<h1 className='text-2xl font-bold text-cloudy pb-4'>About Me</h1>
 				<p className='text-lg pb-4'>
-					Hi there, I'm Paige Tetzlaff, a full-stack software engineer. My
-					journey to software engineering started when I studied Mandarin
-					Chinese in college and had the opportunity to study abroad. Speaking
-					the language helped me navigate and appreciate the culture during my
-					travels.
+					Hi there, I'm Paige Tetzlaff, a full-stack software engineer and a
+					recent graduate from Flatiron School's software engineering bootcamp.
+					Flatiron gave me a solid basis in Object Oriented Programming,
+					specifically React, Rails, Javascript, and Ruby.
 				</p>
 				<p class='text-lg pb-4'>
-					After college, I worked in retail management, where I honed my
-					collaboration, leadership, and problem-solving skills, all of which
-					are essential in programming. Then, I wound up transitioning into
-					tech. Coding felt like solving a puzzle. That passion brought me to
-					the Flatiron School, where I gained a strong foundation in web
-					development and software engineering.
+					Before venturing into tech, I studied Mandarin Chinese at Ohio State
+					University. While there, I had the opportunity to study abroad.
+					Speaking the language helped me navigate and appreciate the culture
+					during my travels. After college, the pandemic hit, so I shifted to
+					retail management, where I built up my problem-solving, teamwork, and
+					leadership skills. I moved up the ladder in these positions and
+					learned to be adaptable and open to new ideas.
 				</p>
 				<p class='text-lg pb-4'>
-					I specialize in building React Rails websites and have used my
-					knowledge of JavaScript and Ruby to create seamless user experiences.
-					However, I am always looking to expand my skill set and stay
-					up-to-date with the latest technologies in the field. To that end, I
-					am currently studying Python, Django, and Mongo DB to shift my focus
-					to building React Django websites. This transition will allow me to
-					create more dynamic and complex web applications.
+					Ultimately, I decided customer service wasn't my passion, so I looked
+					into other options. That is when I began to consider the tech industry
+					and first tried out coding. It was love at first sight. I appreciated
+					the challenge it presented. Coding felt like solving a complex puzzle.
+					From there, I applied to Flatiron School.
 				</p>
 				<p class='text-lg pb-4'>
-					When I'm not coding, you can find me spending time with my dog,
-					exploring new places through travel, and practicing yoga to stay
-					centered and focused. In addition, my background in Mandarin Chinese
-					has instilled in me a sense of curiosity and appreciation for diverse
-					cultures and ways of thinking, which I bring to everything I do as a
-					software engineer. Thank you for visiting my portfolio site! Feel free
-					to reach out if you have any questions or would like to collaborate on
-					a project.
+					After graduating, I saw the need to adapt and learn new technologies.
+					This led me to study Python and Django to build React Django projects.
+					I believe in lifelong learning and am fascinated by the latest
+					industry trends and best practices. This focus has led me to become an
+					adaptable and versatile engineer, able to tackle challenges head-on
+					and deliver exceptional results.
+				</p>
+				<p class='text-lg pb-4'>
+					But life isn't all about coding! When I'm not in front of my computer,
+					I spend quality time with my rescue dog, Toby. I also love traveling
+					to explore new places, practicing yoga, or getting lost in a book.
+					Thank you for visiting my portfolio site! Feel free to reach out if
+					you have any questions or would like to collaborate on a project. I'm
+					available on LinkedIn, and the contact me form to connect via email.
 				</p>
 			</div>
 		</div>

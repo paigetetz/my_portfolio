@@ -58,7 +58,7 @@ function Contact() {
 					<div>
 						<label
 							htmlFor='name'
-							className='block text-sm font-medium text-gray-700'
+							className='block text-sm font-medium text-cloudy'
 						>
 							Name
 						</label>
@@ -74,7 +74,7 @@ function Contact() {
 					<div>
 						<label
 							htmlFor='email'
-							className='block text-sm font-medium text-gray-700'
+							className='block text-sm font-medium text-cloudy'
 						>
 							Email
 						</label>
@@ -90,7 +90,7 @@ function Contact() {
 					<div>
 						<label
 							htmlFor='message'
-							className='block text-sm font-medium text-gray-700'
+							className='block text-sm font-medium text-cloudy'
 						>
 							Message
 						</label>
@@ -99,7 +99,7 @@ function Contact() {
 							name='message'
 							value={formData.message}
 							onChange={handleChange}
-							rows='4'
+							rows='8'
 							className='w-full px-3 py-2 border border-cloudy rounded-md focus:outline-none focus:border-gold'
 						></textarea>
 					</div>
