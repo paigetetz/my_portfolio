@@ -16,11 +16,12 @@ function Home(props) {
 				</h1>
 				<h3 className='text-center m-3 font-bold text-xl'>My Skills</h3>
 				<div
-					className='flex flex-wrap rounded-md border-2 border-gold'
+					className='flex flex-wrap rounded-md border-2 border-gold align-content: center'
 					style={{
 						display: 'grid',
 						gridTemplateColumns: 'repeat(3, 1fr)',
 						gap: '1rem',
+						justifyItems: 'center',
 					}}
 				>
 					{/* React */}
@@ -135,6 +136,7 @@ function Home(props) {
 							display: 'grid',
 							gridTemplateColumns: 'repeat(3, 1fr)',
 							gap: '1rem',
+							justifyItems: 'center',
 						}}
 					>
 						{/* TypeScript */}

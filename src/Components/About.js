@@ -1,12 +1,12 @@
 import React from 'react';
-import HomeImage from '../Images/HomeImage.jpg';
+import AboutMe from '../Images/AboutMe.jpg';
 
 function About(props) {
 	return (
 		<div className='flex flex-col mx-3 px-3 py-2 border border-sage rounded-md my-3 sm:flex-row flex items-center'>
 			<div className='w-full sm:w-1/2 sm:pr-4'>
 				<img
-					src={HomeImage}
+					src={AboutMe}
 					alt='about'
 					className='w-full flex items-center rounded-md border-2 border-gold'
 				/>
