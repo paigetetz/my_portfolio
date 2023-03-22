@@ -12,7 +12,9 @@ function About(props) {
 				/>
 			</div>
 			<div className='w-full sm:w-1/2 p-4 text-cloudy font-display'>
-				<h1 className='text-2xl font-bold text-cloudy pb-4'>About Me</h1>
+				<h1 className='text-2xl font-bold text-cloudy pb-4 text-center'>
+					About Me
+				</h1>
 				<p className='text-lg pb-4'>
 					Hi there, I'm Paige Tetzlaff, a full-stack software engineer and a
 					recent graduate from Flatiron School's software engineering bootcamp.
