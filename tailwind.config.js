@@ -10,6 +10,10 @@ module.exports = {
 			gold: '#e3caab',
 		},
 
+		fontFamily: {
+			display: ['Quattrocento', 'Regular'],
+		},
+
 		extend: {},
 	},
 	plugins: [],

@@ -1,17 +1,24 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMedium } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Footer(props) {
 	return (
-		<div class='bg-sage px-20 py-12 mx-3 space-y-8 overflow-hidden sm:px-6 lg:px-8 text-offwhite rounded-md '>
+		<div
+			class='bg-sage px-20 py-12 mx-3 space-y-8 overflow-hidden sm:px-6 lg:px-8 text-offwhite rounded-md mt-auto mb-0 '
+			// style={{ minHeight: 'vh' }}
+		>
 			<nav class='flex justify-center -mx-5 -my-2'>
 				<div class='px-5 py-2'>
 					<a
 						href='https://www.linkedin.com/in/paigetetzlaff/'
 						target='_blank'
 						rel='noopener noreferrer'
-						className='hover:text-gold'
+						className='hover:text-gold duration-300'
 					>
-						LinkedIn
+						<FontAwesomeIcon icon={faLinkedin} size='3x' />
 					</a>
 				</div>
 				<div class='px-5 py-2'>
@@ -19,9 +26,9 @@ function Footer(props) {
 						href='https://github.com/paigetetz'
 						target='_blank'
 						rel='noopener noreferrer'
-						className='hover:text-gold'
+						className='hover:text-gold duration-300'
 					>
-						GitHub
+						<FontAwesomeIcon icon={faGithub} size='3x' />
 					</a>
 				</div>
 				<div class='px-5 py-2'>
@@ -29,9 +36,9 @@ function Footer(props) {
 						href='https://medium.com/@paigetetz'
 						target='_blank'
 						rel='noopener noreferrer'
-						className='hover:text-gold'
+						className='hover:text-gold duration-300'
 					>
-						Medium
+						<FontAwesomeIcon icon={faMedium} size='3x' />
 					</a>
 				</div>
 			</nav>

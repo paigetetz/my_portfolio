@@ -41,20 +41,24 @@ function Contact() {
 				<img
 					src={ContactImage}
 					alt='Butterfly on a flower'
-					className='max-w-sm rounded-md mr-4'
+					className='max-w-sm rounded-md mr-4 border-2 border-gold'
 				/>
 			</div>
 			<div className='flex-grow text-center mx-auto lg:mx-0'>
 				<h2 className='text-2xl mb-6 text-cloudy'>Let's Connect</h2>
-				{status === 'success' && <p className='mb-4'>Talk to you soon!</p>}
+				{status === 'success' && (
+					<p className='mb-4 text-gold'>Talk to you soon!</p>
+				)}
 				{status === 'error' && (
-					<p className='mb-4'>Error sending message. Please try again.</p>
+					<p className='mb-4 text-gold'>
+						Error sending message. Please try again.
+					</p>
 				)}
 				<form onSubmit={handleSubmit} className='space-y-4'>
 					<div>
 						<label
 							htmlFor='name'
-							className='block text-sm font-medium text-gray-700'
+							className='block text-sm font-medium text-cloudy'
 						>
 							Name
 						</label>
@@ -70,7 +74,7 @@ function Contact() {
 					<div>
 						<label
 							htmlFor='email'
-							className='block text-sm font-medium text-gray-700'
+							className='block text-sm font-medium text-cloudy'
 						>
 							Email
 						</label>
@@ -86,7 +90,7 @@ function Contact() {
 					<div>
 						<label
 							htmlFor='message'
-							className='block text-sm font-medium text-gray-700'
+							className='block text-sm font-medium text-cloudy'
 						>
 							Message
 						</label>
@@ -95,7 +99,7 @@ function Contact() {
 							name='message'
 							value={formData.message}
 							onChange={handleChange}
-							rows='4'
+							rows='8'
 							className='w-full px-3 py-2 border border-cloudy rounded-md focus:outline-none focus:border-gold'
 						></textarea>
 					</div>
