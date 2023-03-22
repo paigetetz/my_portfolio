@@ -1,4 +1,8 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMedium } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Footer(props) {
 	return (
@@ -14,7 +18,7 @@ function Footer(props) {
 						rel='noopener noreferrer'
 						className='hover:text-gold duration-300'
 					>
-						LinkedIn
+						<FontAwesomeIcon icon={faLinkedin} size='3x' />
 					</a>
 				</div>
 				<div class='px-5 py-2'>
@@ -24,7 +28,7 @@ function Footer(props) {
 						rel='noopener noreferrer'
 						className='hover:text-gold duration-300'
 					>
-						GitHub
+						<FontAwesomeIcon icon={faGithub} size='3x' />
 					</a>
 				</div>
 				<div class='px-5 py-2'>
@@ -34,7 +38,7 @@ function Footer(props) {
 						rel='noopener noreferrer'
 						className='hover:text-gold duration-300'
 					>
-						Medium
+						<FontAwesomeIcon icon={faMedium} size='3x' />
 					</a>
 				</div>
 			</nav>
