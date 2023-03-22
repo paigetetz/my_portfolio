@@ -15,7 +15,7 @@ function Project({ project }) {
 				>
 					{project.images.map((image, id) => (
 						<div key={id}>
-							<img src={image} alt='Website Images' w-full />
+							<img src={image} alt='Website Images' className='w-full' />
 						</div>
 					))}
 				</Carousel>
@@ -24,7 +24,7 @@ function Project({ project }) {
 			)}
 			<div className='mt-6 text-center'>
 				<h2 className='text-2xl font-bold'>{project.name}</h2>
-				<p className=' mt-4 text-lg'>{project.description}</p>
+				<p className='mt-4 text-lg'>{project.description}</p>
 				<p>Tech Used: {project.tech}</p>
 				<a
 					href={project.demo}
