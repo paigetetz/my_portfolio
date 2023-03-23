@@ -55,7 +55,9 @@ function Contact() {
 					</p>
 				)}
 				<form onSubmit={handleSubmit} className='space-y-4'>
-					<div>
+					<div className='lg:w-auto'>
+						{' '}
+						{/* Add the lg:w-auto class here */}
 						<label
 							htmlFor='name'
 							className='block text-sm font-medium text-cloudy'
@@ -71,7 +73,9 @@ function Contact() {
 							className='w-full px-3 py-2 border border-cloudy rounded-md focus:outline-none focus:border-gold'
 						/>
 					</div>
-					<div>
+					<div className='lg:w-auto'>
+						{' '}
+						{/* Add the lg:w-auto class here */}
 						<label
 							htmlFor='email'
 							className='block text-sm font-medium text-cloudy'
@@ -87,7 +91,9 @@ function Contact() {
 							className='w-full px-3 py-2 border border-cloudy rounded-md focus:outline-none focus:border-gold'
 						/>
 					</div>
-					<div>
+					<div className='lg:w-auto'>
+						{' '}
+						{/* Add the lg:w-auto class here */}
 						<label
 							htmlFor='message'
 							className='block text-sm font-medium text-cloudy'
