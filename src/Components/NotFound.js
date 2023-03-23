@@ -1,9 +1,10 @@
 import React from 'react';
+import NotFoundImage from '../Images/NotFoundImage.png';
 
 function NotFound(props) {
 	return (
-		<div>
-			<h1>404 Not Found</h1>
+		<div class='flex h-screen items-center justify-center'>
+			<img src={NotFoundImage} alt='404' class='w-1/2' />
 		</div>
 	);
 }
