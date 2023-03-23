@@ -186,7 +186,7 @@ function ProjectContainer({ projects }) {
 					<div className='mt-6 text-center'>
 						<h2 className='text-2xl font-bold'>Portfolio</h2>
 						<p className='mt-4 text-lg'>
-							An clear example of my work is this portfolio website.
+							A clear example of my work is this portfolio website.
 						</p>
 						<p>Tech Used: React, Tailwind CSS</p>
 						<a
