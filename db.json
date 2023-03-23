@@ -39,7 +39,7 @@
     {  
       "id": 3,
       "name": "Divr",
-      "description": "Divr is a website that allows users to research and plan their scuba diving experiences.",
+      "description": "Divr is a website that allows users to research and plan their scuba diving experiences. Users can search for specific dive sites, as well as suggest new dive sites.",
       "github": "https://github.com/paigetetz/Divr",
       "demo": "https://www.loom.com/share/db4cce33c4bf484ea7aaca1a6b11ad06",
       "tech": "React, Vanilla CSS",
