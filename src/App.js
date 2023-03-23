@@ -11,7 +11,7 @@ import NotFound from './Components/NotFound';
 import Footer from './Components/Footer';
 
 function App(props) {
-	const API = 'http://localhost:3000/projects';
+	const API = 'https://paigetetzlaff.vercel.app/api/data';
 	const [projects, setProjects] = useState([]);
 	useEffect(() => {
 		fetch(API)
