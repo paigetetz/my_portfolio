@@ -11,11 +11,11 @@ import NotFound from './Components/NotFound';
 import Footer from './Components/Footer';
 
 function App(props) {
+	const API = 'http://localhost:3000/projects';
 	const [projects, setProjects] = useState([]);
-
 	useEffect(() => {
-		fetch('http://localhost:3000/projects')
-			.then((resp) => resp.json())
+		fetch(API)
+			.then((res) => res.json())
 			.then((data) => setProjects(data));
 	}, []);
 
