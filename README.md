@@ -4,17 +4,16 @@ This is the source code for my personal portfolio website built using React and 
 Features
 The portfolio website includes the following features:
 
-Home page: An introduction to who I am and what I do.
+Home page: An introduction to my skills
 About page: A summary of my experience, skills, and education.
 Projects page: A gallery of my recent projects, with links to live demos and source code.
-Blog page: A collection of my latest blog posts on topics related to web development and technology.
 Contact page: A form where visitors can send me a message or contact me for freelance work.
 Technologies Used
 The portfolio website was built using the following technologies:
 
 React: The website is built using the React library for building user interfaces.
 Tailwind CSS: The website uses the Tailwind CSS framework for styling and layout.
-GitHub Pages: The website is hosted on GitHub Pages, which allows for easy deployment and hosting of static websites.
+Vercel: The website is hosted on Vercel, which allows for easy deployment and hosting of static websites.
 Installation
 To run the website locally on your machine, follow these steps:
 
