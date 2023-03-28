@@ -36,12 +36,12 @@ function Contact() {
 	};
 
 	return (
-		<div className='flex flex-col lg:flex-row w-full max-w-3xl mx-auto my-10 text-cloudy mt-1 px-3 py-2 border border-sage rounded-md'>
+		<div className='flex flex-col lg:flex-row w-full max-w-2xl mx-auto my-10 text-cloudy mt-1 px-3 py-2 border border-sage rounded-md'>
 			<div className='w-full lg:w-auto flex-none mx-auto'>
 				<img
 					src={ContactImage}
 					alt='Butterfly on a flower'
-					className='max-w-sm rounded-md mr-4 border-2 border-gold'
+					className='w-full lg:max-w-sm object-cover rounded-md mr-0 lg:mr-4 mb-4 lg:mb-0 border-2 border-gold'
 				/>
 			</div>
 			<div className='flex-grow text-center mx-auto lg:mx-0'>
@@ -55,9 +55,7 @@ function Contact() {
 					</p>
 				)}
 				<form onSubmit={handleSubmit} className='space-y-4'>
-					<div className='lg:w-auto'>
-						{' '}
-						{/* Add the lg:w-auto class here */}
+					<div>
 						<label
 							htmlFor='name'
 							className='block text-sm font-medium text-cloudy'
@@ -73,9 +71,7 @@ function Contact() {
 							className='w-full px-3 py-2 border border-cloudy rounded-md focus:outline-none focus:border-gold'
 						/>
 					</div>
-					<div className='lg:w-auto'>
-						{' '}
-						{/* Add the lg:w-auto class here */}
+					<div>
 						<label
 							htmlFor='email'
 							className='block text-sm font-medium text-cloudy'
@@ -91,9 +87,7 @@ function Contact() {
 							className='w-full px-3 py-2 border border-cloudy rounded-md focus:outline-none focus:border-gold'
 						/>
 					</div>
-					<div className='lg:w-auto'>
-						{' '}
-						{/* Add the lg:w-auto class here */}
+					<div>
 						<label
 							htmlFor='message'
 							className='block text-sm font-medium text-cloudy'
