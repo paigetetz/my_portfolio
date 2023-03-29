@@ -4,7 +4,7 @@ import Landing from '../Images/Landing.png';
 function LandingPage(props) {
 	return (
 		<Link to='/home'>
-			<div class='flex h-screen items-center justify-center'>
+			<div className='flex h-screen items-center justify-center'>
 				<img src={Landing} alt='Logo' class='w-1/2' />
 			</div>
 		</Link>

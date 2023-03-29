@@ -21,7 +21,7 @@ function About(props) {
 					Flatiron gave me a solid basis in Object Oriented Programming,
 					specifically React, Rails, Javascript, and Ruby.
 				</p>
-				<p class='text-lg pb-4'>
+				<p className='text-lg pb-4'>
 					Before venturing into tech, I studied Mandarin Chinese at Ohio State
 					University. While there, I had the opportunity to study abroad.
 					Speaking the language helped me navigate and appreciate the culture
@@ -30,14 +30,14 @@ function About(props) {
 					leadership skills. I moved up the ladder in these positions and
 					learned to be adaptable and open to new ideas.
 				</p>
-				<p class='text-lg pb-4'>
+				<p className='text-lg pb-4'>
 					Ultimately, I decided customer service wasn't my passion, so I looked
 					into other options. That is when I began to consider the tech industry
 					and first tried out coding. It was love at first sight. I appreciated
 					the challenge it presented. Coding felt like solving a complex puzzle.
 					From there, I applied to Flatiron School.
 				</p>
-				<p class='text-lg pb-4'>
+				<p className='text-lg pb-4'>
 					After graduating, I saw the need to adapt and learn new technologies.
 					This led me to study Python and Django to build React Django projects.
 					I believe in lifelong learning and am fascinated by the latest
@@ -45,7 +45,7 @@ function About(props) {
 					adaptable and versatile engineer, able to tackle challenges head-on
 					and deliver exceptional results.
 				</p>
-				<p class='text-lg pb-4'>
+				<p className='text-lg pb-4'>
 					But life isn't all about coding! When I'm not in front of my computer,
 					I spend quality time with my rescue dog, Toby. I also love traveling
 					to explore new places, practicing yoga, or getting lost in a book.

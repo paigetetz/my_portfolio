@@ -3,8 +3,8 @@ import NotFoundImage from '../Images/NotFoundImage.png';
 
 function NotFound(props) {
 	return (
-		<div class='flex h-screen items-center justify-center'>
-			<img src={NotFoundImage} alt='404' class='w-1/2' />
+		<div className='flex h-screen items-center justify-center'>
+			<img src={NotFoundImage} alt='404' className='w-1/2' />
 		</div>
 	);
 }

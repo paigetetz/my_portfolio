@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+// import React, { useEffect, useState } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import Home from './Components/Home';
 import NavBar from './Components/NavBar';
@@ -11,13 +11,13 @@ import NotFound from './Components/NotFound';
 import Footer from './Components/Footer';
 
 function App(props) {
-	const API = 'https://paigetetzlaff.vercel.app/api/data';
-	const [projects, setProjects] = useState([]);
-	useEffect(() => {
-		fetch(API)
-			.then((res) => res.json())
-			.then((data) => setProjects(data));
-	}, []);
+	// const API = 'https://paigetetzlaff.vercel.app/api/data';
+	// const [projects, setProjects] = useState([]);
+	// useEffect(() => {
+	// 	fetch(API)
+	// 		.then((res) => res.json())
+	// 		.then((data) => setProjects(data));
+	// }, []);
 
 	const location = useLocation();
 	const isLandingPage = location.pathname === '/';
@@ -30,10 +30,7 @@ function App(props) {
 				<Route path='/home' element={<Home />} />
 				<Route path='/about' element={<About />} />
 				<Route path='/contact' element={<Contact />} />
-				<Route
-					path='/projects'
-					element={<ProjectContainer projects={projects} />}
-				/>
+				<Route path='/projects' element={<ProjectContainer />} />
 				<Route path='/project/:id' element={<Project />} />
 				<Route path='*' element={<NotFound />} />
 			</Routes>

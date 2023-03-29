@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import Logo from '../Images/Logo.png';
 function NavBar(props) {
 	return (
-		<div class='shadow bg-sage text-offwhite m-3 rounded-md'>
-			<div class='h-20 mx-auto px-5 flex items-center justify-between'>
+		<div className='shadow bg-sage text-offwhite m-3 rounded-md'>
+			<div className='h-20 mx-auto px-5 flex items-center justify-between'>
 				<Link to='/home'>
 					<img src={Logo} alt='Logo' className='w-20' />
 				</Link>

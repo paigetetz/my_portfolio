@@ -36,7 +36,7 @@ function Contact() {
 	};
 
 	return (
-		<div className='flex flex-col lg:flex-row w-full max-w-2xl mx-auto my-10 text-cloudy mt-1 px-3 py-2 border border-sage rounded-md'>
+		<div className='flex flex-col lg:flex-row w-full max-w-2xl mx-auto mt-14 mb-14 text-cloudy mt-1 px-3 py-2 border border-sage rounded-md'>
 			<div className='w-full lg:w-auto flex-none mx-auto'>
 				<img
 					src={ContactImage}
@@ -45,7 +45,7 @@ function Contact() {
 				/>
 			</div>
 			<div className='flex-grow text-center mx-auto lg:mx-0'>
-				<h2 className='text-2xl mb-6 text-cloudy'>Let's Connect</h2>
+				<h2 className='text-3xl mb-7 text-cloudy'>Let's Connect</h2>
 				{status === 'success' && (
 					<p className='mb-4 text-gold'>Talk to you soon!</p>
 				)}
