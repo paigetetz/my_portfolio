@@ -59,7 +59,7 @@ let projects = [
 		name: 'Portfolio',
 		description: 'An clear example of my work is this portfolio website.',
 		github: 'https://github.com/paigetetz/my_portfolio',
-		demo: 'www.paigetetzlaff.com',
+		demo: 'https://www.paigetetzlaff.com',
 		tech: 'React, Tailwind CSS',
 		images: [
 			'https://i.imgur.com/2WqGuLv.png',
