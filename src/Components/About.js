@@ -39,11 +39,12 @@ function About(props) {
 				</p>
 				<p className='text-lg pb-4'>
 					After graduating, I saw the need to adapt and learn new technologies.
-					This led me to study Python and Django to build React Django projects.
-					I believe in lifelong learning and am fascinated by the latest
-					industry trends and best practices. This focus has led me to become an
-					adaptable and versatile engineer, able to tackle challenges head-on
-					and deliver exceptional results.
+					This led me to study the MERN stack (MongoDB, Express, React, Node) to
+					build scalable user friendly applications. I believe in lifelong
+					learning and am fascinated by the latest industry trends and best
+					practices. This focus has led me to become an adaptable and versatile
+					engineer, able to tackle challenges head-on and deliver exceptional
+					results.
 				</p>
 				<p className='text-lg pb-4'>
 					But life isn't all about coding! When I'm not in front of my computer,
